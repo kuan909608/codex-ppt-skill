@@ -6,6 +6,7 @@ Release notes are generated from this file. Keep changelog entries in English.
 
 ### Documentation
 
+- Add Traditional Chinese (Taiwan) website documentation, localized style references, and language navigation.
 - Replace the redundant QA and community sections with compact documentation, Telegram, and issue support links across all README language versions, and remove the obsolete community QR code. (#92)
 - Add a Korean translation of the README (`README_ko.md`) and a language badge linking to it from `README.md` and `README_en.md`. (#90)
 - Replace README language badges with a consistent text-based language switcher across all translations. (#91)
