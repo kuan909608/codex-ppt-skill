@@ -72,7 +72,7 @@ After the user chooses a style, create one final style direction and keep the vi
 
 Reusable style references come from two locations:
 
-- Built-in styles: the skill's `references/` directory, listed below. They ship with the skill and update with it.
+- Built-in styles: the skill's `references/zh-tw/` directory, listed below. They ship with the skill and update with it. Use these Traditional Chinese (Taiwan) files only.
 - User custom styles: `${CODEX_PPT_HOME:-~/.codex-ppt-skill}/references/*.md`. They live outside the skill install so they survive skill updates and reinstalls.
 
 Before offering or using reusable styles, list the user custom style directory (if it exists) and merge its `*.md` files with the built-in list below. User custom styles are discovered by scanning that directory; they are never registered in this document. If a user custom style has the same filename as a built-in style, the user custom file takes priority and replaces the built-in one.
@@ -83,31 +83,31 @@ Important: a deck should have one coherent visual identity, not one repeated com
 
 Available built-in references:
 
-- `references/清爽专业风.md`
-- `references/创意杂志风.md`
-- `references/电子墨水杂志风.md`
-- `references/数据仪表盘风.md`
-- `references/科研答辩风.md`
-- `references/复古扁平插画风.md`
-- `references/手绘技术解释风.md`
-- `references/手绘白板风.md`
-- `references/温暖手工风.md`
-- `references/麦肯锡风格.md`
-- `references/党政红风格.md`
-- `references/教学课件风.md`
+- `references/zh-tw/清爽專業風.md`
+- `references/zh-tw/創意雜誌風.md`
+- `references/zh-tw/電子墨水雜誌風.md`
+- `references/zh-tw/資料儀表板風.md`
+- `references/zh-tw/學術口試風.md`
+- `references/zh-tw/復古扁平插畫風.md`
+- `references/zh-tw/手繪技術解說風.md`
+- `references/zh-tw/手繪白板風.md`
+- `references/zh-tw/溫暖手作風.md`
+- `references/zh-tw/麥肯錫風格.md`
+- `references/zh-tw/政務紅風格.md`
+- `references/zh-tw/教學課程風.md`
 
 This list only tracks built-in styles shipped with the skill. Do not add user custom styles here; they are saved to `${CODEX_PPT_HOME:-~/.codex-ppt-skill}/references/` via `docs/style-library.md` and discovered by directory scan, so they need no registration.
 
 Example style confirmation:
 
 ```text
-我建议用 A，因为它最适合这份内容的受众和表达目标。
+我建議選用 A，因為它最適合這份內容的受眾和表達目標。
 
-A. 清爽专业风（推荐）：浅色背景、蓝绿强调色、结构清晰，适合汇报、答辩和技术分享。
-B. 创意杂志风：大标题、强图片、留白更大胆，适合分享和传播。
-C. 数据仪表盘风：指标卡、图表感布局，适合数据密集型报告。
+A. 清爽專業風（建議）：淺色背景、藍綠強調色、結構清楚，適合簡報、口試和技術分享。
+B. 創意雜誌風：大標題、強烈圖片、留白更大膽，適合分享和傳播。
+C. 資料儀表板風：指標卡、圖表感版面，適合資料密集型報告。
 
-你选哪个？也可以指定要调整的配色、布局或插画方向，或者上传一张喜欢的 PPT 风格图片让我参考。
+你想選哪一個？也可以指定想調整的配色、版面或插畫方向，或上傳一張喜歡的 PPT 風格圖片供我參考。
 ```
 
 ## Generate One Sample Slide For Approval

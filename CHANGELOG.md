@@ -4,6 +4,14 @@ Release notes are generated from this file. Keep changelog entries in English.
 
 ## Unreleased
 
+### Improvements
+
+- Use Traditional Chinese (Taiwan) terminology for newly generated Chinese deck content, runtime messages, and built-in style selection.
+
+### Fixes
+
+- Keep speaker-note parsing compatible with both Traditional and Simplified Chinese page headings while emitting Traditional Chinese runtime output.
+
 ### Documentation
 
 - Add Traditional Chinese (Taiwan) website documentation, localized style references, and language navigation.

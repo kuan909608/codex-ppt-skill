@@ -304,7 +304,7 @@ def _write_template(path: Path) -> None:
             "handoff_rule": "Subagents must use this same backend/tool/mode; return a blocker if unavailable.",
         },
         "style": {
-            "name": "手绘技术解释风",
+            "name": "手繪技術解說風",
             "visual_direction": "clean hand-drawn technical explainer",
             "color_palette": "white background, black marker lines, pale yellow highlights",
             "typography": "large readable Chinese headings, compact handwritten annotations",

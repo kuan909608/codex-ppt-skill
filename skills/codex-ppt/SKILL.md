@@ -72,7 +72,8 @@ Do not mark a step complete from chat alone; use real files or script-recorded s
    - Draft slide roles and required source images. Ask for confirmation, then stop before style, backend, sample, or downstream artifacts until approved.
 
 3. Confirm a unified visual style.
-   - Before offering style options or using files from `references/`, read `docs/outline-style-and-sample.md`.
+   - Before offering style options or using files from `references/zh-tw/`, read `docs/outline-style-and-sample.md`.
+   - For every newly generated Chinese title, outline, prompt, speaker note, and user-facing report, use Traditional Chinese and Taiwan terminology. Read only `references/zh-tw/` for built-in styles; do not use the legacy Simplified Chinese style files.
    - Offer 2-3 concrete style directions, recommend one, wait for confirmation, then keep one visual identity while varying layouts by page role.
 
 4. Confirm the image backend.
@@ -151,7 +152,7 @@ Subagents must not edit `outline.md`, `deck_spec.json`, other slide jobs, `origi
 - `docs/image-model-configuration.md`: API key, base URL, model, `.env`; read only when config is needed.
 - `docs/project-assembly-and-reporting.md`: project directory, notes, assembly, final report, prompting principles.
 - `prompts/slide-worker.md`: slide subagent handoff template.
-- `references/*.md`: built-in visual style references. User custom styles live in `${CODEX_PPT_HOME:-~/.codex-ppt-skill}/references/` and take priority over built-in styles with the same name.
+- `references/zh-tw/*.md`: built-in visual style references in Traditional Chinese (Taiwan). User custom styles live in `${CODEX_PPT_HOME:-~/.codex-ppt-skill}/references/` and take priority over built-in styles with the same name.
 
 ## Documentation and Updates
 
